@@ -8,4 +8,15 @@ def average(marks_list):
         total = total + mark
     return total / len(marks_list)    # send the answer back
 
+# Find the biggest mark
+def highest(marks_list):
+    top = marks_list[0]               # start with the first mark
+    for mark in marks_list:
+        if mark > top:                # a bigger mark? replace top
+            top = mark
+    return top
+
+
 print("Average:", average(marks))
+
+print("Highest:", highest(marks))
