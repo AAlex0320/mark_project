@@ -30,3 +30,5 @@ print("Average:", average(marks))
 print("Highest:", highest(marks))
 
 print("Passed:", count_pass(marks, 60))
+
+print("Number of marks:", len(marks))
